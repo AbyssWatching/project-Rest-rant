@@ -1,7 +1,7 @@
 const React = require("react")
 
-function Def (html){
-    return(
+function Def (html) {
+    return (
     <html>
         <head>
             <title>Title</title>
