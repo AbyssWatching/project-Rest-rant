@@ -3,11 +3,18 @@ const Def = require("./default")
 
 function home () {
     return (
-        <def>
+        <Def>
             <main>
                 <h1>HOME</h1>
+                <div>
+                    <img src="/images/AnimeFood1.webp" alt="food"/>
+                    Photo by <a href="https://unsplash.com/@ellaolsson?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ella Olsson</a> on <a href="https://unsplash.com/s/photos/free-food?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+                </div>  
+                <a href="/places">
+                    <button className="btn btn-primary">Places Page</button>
+                </a>
             </main>
-        </def>
+        </Def>
     )
 }
 
