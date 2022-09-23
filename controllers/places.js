@@ -7,14 +7,14 @@ router.get("/", (req, res) => {
         city: "Seattle",
         state: "wa",
         cuisines: "Thai, Pan-Asian",
-        pic: "http://placekitten.com/250/250",
+        pic: "/images/animeResteraunt.webp",
         },
     {
         name: "Coding Cat Cafe",
         city: "Phoenix",
         state: "AZ",
         cuisines: "Coffee, Bakery",
-        pic: "http://placekitten.com/250/250",
+        pic: "/images/Resterauntanime.webp",
     }]
 
     res.render("places/index", {places})
