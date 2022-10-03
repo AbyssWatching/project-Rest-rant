@@ -26,7 +26,7 @@ function edit_form(data) {
                         <input className="form-control" id="state" name="state" defaultValue={data.place.state}/> 
                     </div>
                     <div className="form-group col-sm-6">
-                        <label htmlFor="cuisiness">Cuisines</label>
+                        <label htmlFor="cuisines">Cuisines</label>
                         <input className="form-control" id="cuisines" name="cuisines" required defaultValue={data.place.cuisines}/> 
                    </div>
                 
